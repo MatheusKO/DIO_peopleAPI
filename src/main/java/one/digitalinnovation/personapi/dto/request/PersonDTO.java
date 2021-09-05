@@ -30,7 +30,6 @@ public class PersonDTO {
     @Size(min = 2, max = 100)
     private String lastName;
 
-    @Valid
     @NotEmpty
     @CPF
     private String cpf;
